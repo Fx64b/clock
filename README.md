@@ -46,3 +46,5 @@ pnpm cap open android
 
 ## Todo
 - [ ] Improve text size
+- [ ] Add support for ios
+- [ ] Create better todo list
