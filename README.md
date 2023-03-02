@@ -38,13 +38,12 @@ pnpm build
 pnpm next export
 pnpm cap sync
 pnpm cap open android
+pnpm cap open ios
 ```
-(Currently only android is supported but ios is also easy to configure. Probably will come soon)
-
 
 <br>
 
 ## Todo
+- [x] Add support for ios
 - [ ] Improve text size
-- [ ] Add support for ios
 - [ ] Create better todo list
