@@ -17,16 +17,17 @@ cd clock
 
 This project uses [pnpm](https://pnpm.io/installation) as a package manager but you can also just use npm.
 
+**Install dependencies**
 ```bash
 pnpm i
 ```
 
-Development
+**Development**
 ```bash
 pnpm dev
 ```
 
-Build
+**Build**
 ```bash
 pnpm build
 ```
@@ -45,5 +46,5 @@ pnpm cap open ios
 
 ## Todo
 - [x] Add support for ios
-- [ ] Improve text size
-- [ ] Create better todo list
+- [x] Improve text size
+- [ ] Add different types of appearances
