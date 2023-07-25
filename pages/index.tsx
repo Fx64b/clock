@@ -34,11 +34,14 @@ export default function Home() {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <main className='w-full h-screen flex flex-col justify-center items-center text-white'>
-        <div className='flex flex-col text-8xl'>
+      <main className='w-full h-screen flex flex-col justify-center items-center text-white cursor-default select-none'>
+        <div className='flex flex-col text-9xl md:text-9xl md:flex-row md:gap-3'>
           <span>{hours}</span>
+          <span className='hidden md:flex'>:</span>
           <span>{minutes}</span>
+          <span className='hidden md:flex'>:</span>
           <span>{seconds}</span>
+          <span className='hidden md:flex'>:</span>
           <span>{milliseconds}</span>
         </div>
       </main>
