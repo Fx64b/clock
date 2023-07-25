@@ -5,15 +5,8 @@ export default function Home() {
 
   const [time, setTime] = useState({ hours: '00', minutes: '00', seconds: '00', milliseconds: '00'});
 
-  useEffect(() => {
-    const intervalId = setInterval(() => {
-      setTime(getTime());
-    }, 10); 
-
-    return () => {
-      clearInterval(intervalId);
-    };
-  }, []);
+  const [fonts, setFonts] = useState(['font-sans', 'font-mono', 'font-serif']);
+  const [fontIndex, setFontIndex] = useState(0);
 
   function getTime() {
     const date = new Date(Date.now());
@@ -24,7 +17,25 @@ export default function Home() {
     return { hours, minutes, seconds, milliseconds };
   }
 
+  useEffect(() => {
+    const intervalId = setInterval(() => {
+      setTime(getTime());
+    }, 10); 
+
+    return () => {
+      clearInterval(intervalId);
+    };
+  }, []);
+
   const { hours, minutes, seconds, milliseconds } = time;
+
+  const handleClick = () => {
+    if(fontIndex === fonts.length-1) {
+      setFontIndex(0);
+    } else {
+      setFontIndex(fontIndex + 1);
+    }
+  }
 
   return (
     <>
@@ -35,7 +46,7 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <main className='w-full h-screen flex flex-col justify-center items-center text-white cursor-default select-none'>
-        <div className='flex flex-col text-9xl md:text-9xl md:flex-row md:gap-3'>
+        <div className={'flex flex-col text-9xl lg:p-16 md:text-9xl md:flex-row md:gap-3' + ' ' + fonts[fontIndex]} onClick={handleClick}>
           <span>{hours}</span>
           <span className='hidden md:flex'>:</span>
           <span>{minutes}</span>
