@@ -7,16 +7,16 @@ settings:
 dependencies:
   '@capacitor/android':
     specifier: ^4.8.2
-    version: 4.8.2(@capacitor/core@4.8.1)
+    version: 4.8.2(@capacitor/core@4.8.2)
   '@capacitor/cli':
     specifier: ^5.0.0
     version: 5.6.0
   '@capacitor/core':
-    specifier: ^4.8.1
-    version: 4.8.1
+    specifier: ^4.8.2
+    version: 4.8.2
   '@capacitor/ios':
     specifier: ^4.8.2
-    version: 4.8.2(@capacitor/core@4.8.1)
+    version: 4.8.2(@capacitor/core@4.8.2)
   '@types/node':
     specifier: 18.19.3
     version: 18.19.3
@@ -75,12 +75,12 @@ packages:
       regenerator-runtime: 0.13.11
     dev: false
 
-  /@capacitor/android@4.8.2(@capacitor/core@4.8.1):
+  /@capacitor/android@4.8.2(@capacitor/core@4.8.2):
     resolution: {integrity: sha512-sWMlHJq9F/+TP6BZHoI0ztvt1kon64lu5IiJnqn80g1U/dSJdvYKhPzphwtFWmvzywQcwf25nRnaTAI/coUY+g==}
     peerDependencies:
       '@capacitor/core': ^4.8.0
     dependencies:
-      '@capacitor/core': 4.8.1
+      '@capacitor/core': 4.8.2
     dev: false
 
   /@capacitor/cli@5.6.0:
@@ -109,18 +109,18 @@ packages:
       - supports-color
     dev: false
 
-  /@capacitor/core@4.8.1:
-    resolution: {integrity: sha512-GIUGw1P2Iyh4jb8ZAIWRPtR2zH6ARcpwN5pn/vmIJiTujQBMQmF62s5L3m4XMQSVKlbw8iCPi/YKjlUL+EjKhA==}
+  /@capacitor/core@4.8.2:
+    resolution: {integrity: sha512-lrDvHyQu3LWWWXkCkHATY8D3GCBIWyqnmQUiGxlTJfu9BEdmfflq+OZuDKIy4H+KYChaXM1QnymNIuWrDFXgXw==}
     dependencies:
-      tslib: 2.6.1
+      tslib: 2.6.2
     dev: false
 
-  /@capacitor/ios@4.8.2(@capacitor/core@4.8.1):
+  /@capacitor/ios@4.8.2(@capacitor/core@4.8.2):
     resolution: {integrity: sha512-NBcXs6uDWcLYr9RedkhtyQckLVCPrteC9kFDSnKx3I1qQWXj7RK5g0oULCSWzQ92yxp5RsPFAfs5YdNn1JuFrQ==}
     peerDependencies:
       '@capacitor/core': ^4.8.0
     dependencies:
-      '@capacitor/core': 4.8.1
+      '@capacitor/core': 4.8.2
     dev: false
 
   /@eslint-community/eslint-utils@4.4.0(eslint@8.53.0):
