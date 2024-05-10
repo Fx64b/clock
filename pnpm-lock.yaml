@@ -6,8 +6,8 @@ settings:
 
 dependencies:
   '@capacitor/android':
-    specifier: ^4.8.1
-    version: 4.8.1(@capacitor/core@4.8.1)
+    specifier: ^4.8.2
+    version: 4.8.2(@capacitor/core@4.8.1)
   '@capacitor/cli':
     specifier: ^5.0.0
     version: 5.6.0
@@ -30,8 +30,8 @@ dependencies:
     specifier: 8.53.0
     version: 8.53.0
   eslint-config-next:
-    specifier: 14.1.0
-    version: 14.1.0(eslint@8.53.0)(typescript@4.9.5)
+    specifier: 14.1.1
+    version: 14.1.1(eslint@8.53.0)(typescript@4.9.5)
   next:
     specifier: 14.1.1
     version: 14.1.1(react-dom@18.2.0)(react@18.2.0)
@@ -75,8 +75,8 @@ packages:
       regenerator-runtime: 0.13.11
     dev: false
 
-  /@capacitor/android@4.8.1(@capacitor/core@4.8.1):
-    resolution: {integrity: sha512-nOltfBbMyMMukFj8p5FMcHmtw8UF5uyXS8T1P5HKuU/eFrazeDWK+4494Rc9jLhSg/kam5886AJUPZ9UESHCqw==}
+  /@capacitor/android@4.8.2(@capacitor/core@4.8.1):
+    resolution: {integrity: sha512-sWMlHJq9F/+TP6BZHoI0ztvt1kon64lu5IiJnqn80g1U/dSJdvYKhPzphwtFWmvzywQcwf25nRnaTAI/coUY+g==}
     peerDependencies:
       '@capacitor/core': ^4.8.0
     dependencies:
@@ -359,8 +359,8 @@ packages:
     resolution: {integrity: sha512-7CnQyD5G8shHxQIIg3c7/pSeYFeMhsNbpU/bmvH7ZnDql7mNRgg8O2JZrhrc/soFnfBnKP4/xXNiiSIPn2w8gA==}
     dev: false
 
-  /@next/eslint-plugin-next@14.1.0:
-    resolution: {integrity: sha512-x4FavbNEeXx/baD/zC/SdrvkjSby8nBn8KcCREqk6UuwvwoAPZmaV8TFCAuo/cpovBRTIY67mHhe86MQQm/68Q==}
+  /@next/eslint-plugin-next@14.1.1:
+    resolution: {integrity: sha512-NP1WoGFnFLpqqCWgGFjnn/sTwUExdPyjeFKRdQP1X/bL/tjAQ/TXDmYqw6vzGaP5NaZ2u6xzg+N/0nd7fOPOGQ==}
     dependencies:
       glob: 10.3.10
     dev: false
@@ -1228,8 +1228,8 @@ packages:
     engines: {node: '>=10'}
     dev: false
 
-  /eslint-config-next@14.1.0(eslint@8.53.0)(typescript@4.9.5):
-    resolution: {integrity: sha512-SBX2ed7DoRFXC6CQSLc/SbLY9Ut6HxNB2wPTcoIWjUMd7aF7O/SIE7111L8FdZ9TXsNV4pulUDnfthpyPtbFUg==}
+  /eslint-config-next@14.1.1(eslint@8.53.0)(typescript@4.9.5):
+    resolution: {integrity: sha512-OLyw2oHzwE0M0EODGYMbjksDQKSshQWBzYY+Nkoxoe3+Q5G0lpb9EkekyDk7Foz9BMfotbYShJrgYoBEAVqU4Q==}
     peerDependencies:
       eslint: ^7.23.0 || ^8.0.0
       typescript: '>=3.3.1'
@@ -1237,7 +1237,7 @@ packages:
       typescript:
         optional: true
     dependencies:
-      '@next/eslint-plugin-next': 14.1.0
+      '@next/eslint-plugin-next': 14.1.1
       '@rushstack/eslint-patch': 1.5.1
       '@typescript-eslint/parser': 5.62.0(eslint@8.53.0)(typescript@4.9.5)
       eslint: 8.53.0
