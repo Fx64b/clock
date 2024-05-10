@@ -12,7 +12,7 @@
     "@capacitor/android": "^4.8.2",
     "@capacitor/cli": "^5.0.0",
     "@capacitor/core": "^4.8.1",
-    "@capacitor/ios": "^4.8.1",
+    "@capacitor/ios": "^4.8.2",
     "eslint": "8.53.0",
     "@types/react": "18.2.34",
     "eslint-config-next": "14.1.1",
