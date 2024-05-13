@@ -6,17 +6,17 @@ settings:
 
 dependencies:
   '@capacitor/android':
-    specifier: ^4.8.2
-    version: 4.8.2(@capacitor/core@4.8.2)
+    specifier: ^6.0.0
+    version: 6.0.0(@capacitor/core@6.0.0)
   '@capacitor/cli':
     specifier: ^5.0.0
     version: 5.6.0
   '@capacitor/core':
-    specifier: ^4.8.2
-    version: 4.8.2
+    specifier: ^6.0.0
+    version: 6.0.0
   '@capacitor/ios':
-    specifier: ^4.8.2
-    version: 4.8.2(@capacitor/core@4.8.2)
+    specifier: ^6.0.0
+    version: 6.0.0(@capacitor/core@6.0.0)
   '@types/node':
     specifier: 18.19.3
     version: 18.19.3
@@ -75,12 +75,12 @@ packages:
       regenerator-runtime: 0.13.11
     dev: false
 
-  /@capacitor/android@4.8.2(@capacitor/core@4.8.2):
-    resolution: {integrity: sha512-sWMlHJq9F/+TP6BZHoI0ztvt1kon64lu5IiJnqn80g1U/dSJdvYKhPzphwtFWmvzywQcwf25nRnaTAI/coUY+g==}
+  /@capacitor/android@6.0.0(@capacitor/core@6.0.0):
+    resolution: {integrity: sha512-NwL87VO9F1WY/EgvJZN9pIhjejq688k2fRW6XWNLVe3cgGE6nUb9J34KI68fhx3139cf2LVGPUYs+mwZC8esiQ==}
     peerDependencies:
-      '@capacitor/core': ^4.8.0
+      '@capacitor/core': ^6.0.0
     dependencies:
-      '@capacitor/core': 4.8.2
+      '@capacitor/core': 6.0.0
     dev: false
 
   /@capacitor/cli@5.6.0:
@@ -109,18 +109,18 @@ packages:
       - supports-color
     dev: false
 
-  /@capacitor/core@4.8.2:
-    resolution: {integrity: sha512-lrDvHyQu3LWWWXkCkHATY8D3GCBIWyqnmQUiGxlTJfu9BEdmfflq+OZuDKIy4H+KYChaXM1QnymNIuWrDFXgXw==}
+  /@capacitor/core@6.0.0:
+    resolution: {integrity: sha512-NvxIQsJcMiIV+Le1DilR2GGyQQbDInfXK1UywGROQ5mycdFlW5XoAPZ+MKnFGB123RoEgE3uhDGgwTXUmSlX9A==}
     dependencies:
       tslib: 2.6.2
     dev: false
 
-  /@capacitor/ios@4.8.2(@capacitor/core@4.8.2):
-    resolution: {integrity: sha512-NBcXs6uDWcLYr9RedkhtyQckLVCPrteC9kFDSnKx3I1qQWXj7RK5g0oULCSWzQ92yxp5RsPFAfs5YdNn1JuFrQ==}
+  /@capacitor/ios@6.0.0(@capacitor/core@6.0.0):
+    resolution: {integrity: sha512-7mAs3gjWiE5DPM4AGPduqFSDGXCPwwqQRMzbohVway7/cTWnHomHV8mIojMZE4GILeWO2fILbyu3C8q9pHg2vg==}
     peerDependencies:
-      '@capacitor/core': ^4.8.0
+      '@capacitor/core': ^6.0.0
     dependencies:
-      '@capacitor/core': 4.8.2
+      '@capacitor/core': 6.0.0
     dev: false
 
   /@eslint-community/eslint-utils@4.4.0(eslint@8.53.0):
