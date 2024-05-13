@@ -9,10 +9,10 @@
     "lint": "next lint"
   },
   "dependencies": {
-    "@capacitor/android": "^4.8.2",
+    "@capacitor/android": "^6.0.0",
     "@capacitor/cli": "^5.0.0",
-    "@capacitor/core": "^4.8.2",
-    "@capacitor/ios": "^4.8.2",
+    "@capacitor/core": "^6.0.0",
+    "@capacitor/ios": "^6.0.0",
     "eslint": "8.53.0",
     "@types/react": "18.2.34",
     "eslint-config-next": "14.1.1",
