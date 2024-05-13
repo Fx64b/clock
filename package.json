@@ -13,7 +13,7 @@
     "@capacitor/cli": "^5.0.0",
     "@capacitor/core": "^6.0.0",
     "@capacitor/ios": "^6.0.0",
-    "eslint": "8.53.0",
+    "eslint": "8.57.0",
     "@types/react": "18.2.34",
     "eslint-config-next": "14.2.3",
     "@types/react-dom": "18.2.18",
