@@ -9,8 +9,8 @@ dependencies:
     specifier: ^6.0.0
     version: 6.0.0(@capacitor/core@6.0.0)
   '@capacitor/cli':
-    specifier: ^5.0.0
-    version: 5.6.0
+    specifier: ^6.0.0
+    version: 6.0.0
   '@capacitor/core':
     specifier: ^6.0.0
     version: 6.0.0
@@ -83,15 +83,16 @@ packages:
       '@capacitor/core': 6.0.0
     dev: false
 
-  /@capacitor/cli@5.6.0:
-    resolution: {integrity: sha512-h2HLkjPn+hd95F0iOlSWROW15kxj/0qNuzXgktSNQ55Z3dCeWmelgfkbYwjo0eqiunv5zNa31H0YvrpnIVdKEA==}
-    engines: {node: '>=16.0.0'}
+  /@capacitor/cli@6.0.0:
+    resolution: {integrity: sha512-6z30P0mr53l0VXPwFjzDVuKIt1991bqUSSfShTT2efWN+rBSGSAH2bPID6qSZornH1n5R5Lh/UHq/aGuW523MQ==}
+    engines: {node: '>=18.0.0'}
     hasBin: true
     dependencies:
       '@ionic/cli-framework-output': 2.2.5
-      '@ionic/utils-fs': 3.1.6
+      '@ionic/utils-fs': 3.1.7
+      '@ionic/utils-process': 2.1.12
       '@ionic/utils-subprocess': 2.1.11
-      '@ionic/utils-terminal': 2.3.3
+      '@ionic/utils-terminal': 2.3.5
       commander: 9.5.0
       debug: 4.3.4
       env-paths: 2.2.1
@@ -103,7 +104,7 @@ packages:
       rimraf: 4.4.1
       semver: 7.5.4
       tar: 6.2.1
-      tslib: 2.6.1
+      tslib: 2.6.2
       xml2js: 0.5.0
     transitivePeerDependencies:
       - supports-color
@@ -235,12 +236,36 @@ packages:
       - supports-color
     dev: false
 
+  /@ionic/utils-object@2.1.6:
+    resolution: {integrity: sha512-vCl7sl6JjBHFw99CuAqHljYJpcE88YaH2ZW4ELiC/Zwxl5tiwn4kbdP/gxi2OT3MQb1vOtgAmSNRtusvgxI8ww==}
+    engines: {node: '>=16.0.0'}
+    dependencies:
+      debug: 4.3.4
+      tslib: 2.6.2
+    transitivePeerDependencies:
+      - supports-color
+    dev: false
+
   /@ionic/utils-process@2.1.10:
     resolution: {integrity: sha512-mZ7JEowcuGQK+SKsJXi0liYTcXd2bNMR3nE0CyTROpMECUpJeAvvaBaPGZf5ERQUPeWBVuwqAqjUmIdxhz5bxw==}
     engines: {node: '>=10.3.0'}
     dependencies:
       '@ionic/utils-object': 2.1.5
       '@ionic/utils-terminal': 2.3.3
+      debug: 4.3.4
+      signal-exit: 3.0.7
+      tree-kill: 1.2.2
+      tslib: 2.6.2
+    transitivePeerDependencies:
+      - supports-color
+    dev: false
+
+  /@ionic/utils-process@2.1.12:
+    resolution: {integrity: sha512-Jqkgyq7zBs/v/J3YvKtQQiIcxfJyplPgECMWgdO0E1fKrrH8EF0QGHNJ9mJCn6PYe2UtHNS8JJf5G21e09DfYg==}
+    engines: {node: '>=16.0.0'}
+    dependencies:
+      '@ionic/utils-object': 2.1.6
+      '@ionic/utils-terminal': 2.3.5
       debug: 4.3.4
       signal-exit: 3.0.7
       tree-kill: 1.2.2
@@ -3242,10 +3267,6 @@ packages:
 
   /tslib@1.14.1:
     resolution: {integrity: sha512-Xni35NKzjgMrwevysHTCArtLDpPvye8zV/0E4EyYn43P7/7qvQwPh9BGkHewbMulVntbigmcT7rdX3BNo9wRJg==}
-    dev: false
-
-  /tslib@2.6.1:
-    resolution: {integrity: sha512-t0hLfiEKfMUoqhG+U1oid7Pva4bbDPHYfJNiB7BiIjRkj1pyC++4N3huJfqY6aRH6VTB0rvtzQwjM4K6qpfOig==}
     dev: false
 
   /tslib@2.6.2:
