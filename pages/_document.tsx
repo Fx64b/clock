@@ -7,8 +7,8 @@ export default function Document() {
       <Head />
       <body className='bg-black'>
         <Main />
-        <NextScript />
         <Analytics />
+        <NextScript />
       </body>
     </Html>
   )
