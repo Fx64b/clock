@@ -1,5 +1,6 @@
 import Head from 'next/head'
 import { useEffect, useState } from 'react';
+import {Analytics} from "@vercel/analytics/react";
 
 export default function Home() {
 
@@ -44,6 +45,7 @@ export default function Home() {
         <meta name="description" content="Clock" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
+        <Analytics />
       </Head>
       <main className='w-full h-screen flex flex-col justify-center items-center text-white cursor-default select-none'>
         <div className={'flex flex-col text-9xl lg:p-16 md:text-9xl md:flex-row md:gap-3' + ' ' + fonts[fontIndex]} onClick={handleClick}>
