@@ -15,8 +15,8 @@ dependencies:
     specifier: ^6.1.0
     version: 6.1.0
   '@capacitor/ios':
-    specifier: ^6.0.0
-    version: 6.0.0(@capacitor/core@6.1.0)
+    specifier: ^6.1.0
+    version: 6.1.0(@capacitor/core@6.1.0)
   '@types/node':
     specifier: 20.14.2
     version: 20.14.2
@@ -114,10 +114,10 @@ packages:
       tslib: 2.6.2
     dev: false
 
-  /@capacitor/ios@6.0.0(@capacitor/core@6.1.0):
-    resolution: {integrity: sha512-7mAs3gjWiE5DPM4AGPduqFSDGXCPwwqQRMzbohVway7/cTWnHomHV8mIojMZE4GILeWO2fILbyu3C8q9pHg2vg==}
+  /@capacitor/ios@6.1.0(@capacitor/core@6.1.0):
+    resolution: {integrity: sha512-ex2q0LAyDDgfJj4fKDQuSNUYSpic3939/8A/sIIIxslwuRBF5i5fuhAngu6BhCt/pQSfEETcHtg2j2vD+YEZ2w==}
     peerDependencies:
-      '@capacitor/core': ^6.0.0
+      '@capacitor/core': ^6.1.0
     dependencies:
       '@capacitor/core': 6.1.0
     dev: false
